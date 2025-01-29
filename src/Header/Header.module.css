@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+.shutdownNotice {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
