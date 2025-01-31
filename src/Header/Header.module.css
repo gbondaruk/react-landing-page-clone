@@ -1,21 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
-.shutdownNotice {
-  background: black;
-  color: white;
-  text-align: center;
-  padding: 7px;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-
-a {
+.root a {
   text-decoration: none;
 }
-a:visited {
+.root a:visited {
   color: white;
 }
 nav {
   display: flex;
   flex-direction: row;
+}
+ul,
+ol,
+li a {
+  padding: 0;
+  margin: auto 25px auto 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-weight: 500;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 25px;
+}
+.root {
+  width: 100vw;
 }

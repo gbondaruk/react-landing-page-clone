@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+.features {
+  width: 625px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.line::before {
+  height: 3px;
+  width: 800px;
+  background: url(../images/pattern.png);
+  display: block;
+  position: absolute;
+  top: 0;
+  content: '';
+  margin-left: -150px;
+  transform: rotate(-1deg);
+  background-position: bottom;
+  z-index: 10;
+}
+
+.features img {
+  height: 400px;
+}
+
+.singleFeature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-wrap: wrap;
+}
+.singleFeature p {
+  width: 500px;
+}
+h3 {
+  font-family: 'PT Serif Caption', serif;
+  font-size: 25px;
+}

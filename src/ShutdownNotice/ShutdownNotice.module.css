@@ -1,0 +1,13 @@
+.shutdownNotice {
+  background: black;
+  text-align: center;
+  padding: 7px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  width: 100vw;
+  text-decoration: none;
+}
+.shutdownNotice a {
+  color: white;
+  text-decoration: none;
+}
